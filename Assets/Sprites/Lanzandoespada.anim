@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Fall
+  m_Name: Lanzandoespada
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,11 +21,17 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 1456676944040118077, guid: c9e07d094501ea649948129bd8f29acd, type: 3}
-    - time: 0.25
-      value: {fileID: -596358002375275520, guid: c9e07d094501ea649948129bd8f29acd, type: 3}
-    - time: 0.5
-      value: {fileID: 7666411070814756930, guid: c9e07d094501ea649948129bd8f29acd, type: 3}
+      value: {fileID: -1996040985271037693, guid: 1c955147b671f8e44860df41ac3c3be4, type: 3}
+    - time: 0.1
+      value: {fileID: 1990839968823090181, guid: 1c955147b671f8e44860df41ac3c3be4, type: 3}
+    - time: 0.15
+      value: {fileID: -465669493431311655, guid: 1c955147b671f8e44860df41ac3c3be4, type: 3}
+    - time: 0.15
+      value: {fileID: 885383836385540116, guid: 1c955147b671f8e44860df41ac3c3be4, type: 3}
+    - time: 0.18333334
+      value: {fileID: 3415499427299695491, guid: 1c955147b671f8e44860df41ac3c3be4, type: 3}
+    - time: 0.28333333
+      value: {fileID: 962404964841824403, guid: 1c955147b671f8e44860df41ac3c3be4, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -48,20 +54,23 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 1456676944040118077, guid: c9e07d094501ea649948129bd8f29acd, type: 3}
-    - {fileID: -596358002375275520, guid: c9e07d094501ea649948129bd8f29acd, type: 3}
-    - {fileID: 7666411070814756930, guid: c9e07d094501ea649948129bd8f29acd, type: 3}
+    - {fileID: -1996040985271037693, guid: 1c955147b671f8e44860df41ac3c3be4, type: 3}
+    - {fileID: 1990839968823090181, guid: 1c955147b671f8e44860df41ac3c3be4, type: 3}
+    - {fileID: -465669493431311655, guid: 1c955147b671f8e44860df41ac3c3be4, type: 3}
+    - {fileID: 885383836385540116, guid: 1c955147b671f8e44860df41ac3c3be4, type: 3}
+    - {fileID: 3415499427299695491, guid: 1c955147b671f8e44860df41ac3c3be4, type: 3}
+    - {fileID: 962404964841824403, guid: 1c955147b671f8e44860df41ac3c3be4, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.51666665
+    m_StopTime: 0.3
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
     m_HasAdditiveReferencePose: 0
-    m_LoopTime: 1
+    m_LoopTime: 0
     m_LoopBlend: 0
     m_LoopBlendOrientation: 0
     m_LoopBlendPositionY: 0
@@ -75,4 +84,18 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 0
+    functionName: 
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.28333333
+    functionName: LanzarEspadaEvent
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
