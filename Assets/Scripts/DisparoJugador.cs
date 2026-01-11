@@ -2,31 +2,29 @@
 
 public class DisparoJugador : MonoBehaviour
 {
-    [SerializeField] private Transform ControladorDisparo;
+    [SerializeField] private Transform controladorDisparo;
     [SerializeField] private GameObject bala;
+    [SerializeField] private GameObject teleportParticles;
+
 
     private GameObject balaClavada;
 
     private bool tieneEspada = true;
     private Animator animator;
 
-    public bool TieneEspada => tieneEspada; // <-- NUEVO
+    public bool TieneEspada => tieneEspada;
 
-    private void Start()
+    void Start()
     {
         animator = GetComponent<Animator>();
     }
 
-    public void LanzarEspadaEvent()
+    void Update()
     {
-        Disparar();
-    }
-
-    private void Update()
-    {
-        if (Input.GetButtonDown("Fire1"))
+        // CLICK DERECHO para lanzar espada
+        if (Input.GetButtonDown("Fire2"))
         {
-            animator.SetTrigger("Throw");
+            LanzarEspada();
         }
 
         if (Input.GetKeyDown(KeyCode.E))
@@ -35,49 +33,89 @@ public class DisparoJugador : MonoBehaviour
         }
     }
 
-    private void Teletransportar()
+
+    private void LanzarEspada()
     {
+
+        // Si hay una espada previa, destruirla
         if (balaClavada != null)
         {
-            transform.position = balaClavada.transform.position;
-
             Destroy(balaClavada);
             balaClavada = null;
-
-            // recuperar espada
-            tieneEspada = true;
-            animator.SetBool("TieneEspada", true);
         }
-    }
 
-    private void Disparar()
-    {
+        // Ahora lanzamos una nueva
         tieneEspada = false;
         animator.SetBool("TieneEspada", false);
+        animator.SetTrigger("Throw");
 
-        if (balaClavada != null)
-        {
-            Destroy(balaClavada);
-            balaClavada = null;
-        }
+        GameObject nuevaBala = Instantiate(
+            bala,
+            controladorDisparo.position,
+            Quaternion.identity
+        );
 
-        GameObject nuevaBala = Instantiate(bala, ControladorDisparo.position, ControladorDisparo.rotation);
-
+        // 🔥 REGISTRAR DESDE EL PRINCIPIO
         balaClavada = nuevaBala;
 
         Bala balaScript = nuevaBala.GetComponent<Bala>();
 
         if (transform.localScale.x < 0)
         {
-            balaScript.direccion = Vector2.left;
+            balaScript.Lanzar(Vector2.left);
             nuevaBala.transform.rotation = Quaternion.Euler(0, 180, 0);
         }
         else
         {
-            balaScript.direccion = Vector2.right;
-            nuevaBala.transform.rotation = Quaternion.Euler(0, 0, 0);
+            balaScript.Lanzar(Vector2.right);
+            nuevaBala.transform.rotation = Quaternion.identity;
         }
+
+
     }
+
+
+    private void Teletransportar()
+    {
+        if (balaClavada == null) return;
+
+        // 🔥 cancelar autodestrucción si existe
+        Bala balaScript = balaClavada.GetComponent<Bala>();
+        if (balaScript != null)
+        {
+            balaScript.CancelarAutodestruccion();
+        }
+
+        // Partículas en origen (jugador)
+        SpawnParticles(transform.position);
+
+        // Teleport
+        transform.position = balaClavada.transform.position;
+
+        // Partículas en destino (espada)
+        SpawnParticles(balaClavada.transform.position);
+
+        Destroy(balaClavada);
+        balaClavada = null;
+
+        tieneEspada = true;
+        animator.SetBool("TieneEspada", true);
+    }
+
+    void SpawnParticles(Vector3 position)
+    {
+        if (teleportParticles == null) return;
+
+        GameObject p = Instantiate(
+            teleportParticles,
+            position,
+            Quaternion.identity
+        );
+
+        Destroy(p, 1f);
+    }
+
+
 
     public void RegistrarBalaClavada(GameObject bala)
     {

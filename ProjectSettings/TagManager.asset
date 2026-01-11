@@ -5,9 +5,14 @@ TagManager:
   serializedVersion: 3
   tags:
   - Floor
-  - Enemigo
   - Sword
   - Wall
+  - Enemy
+  - Hazard
+  - SwordButton
+  - PlayerSword
+  - Door
+  - ShieldEnemy
   layers:
   - Default
   - TransparentFX
@@ -16,8 +21,8 @@ TagManager:
   - Water
   - UI
   - Wall
-  - 
-  - 
+  - Player
+  - PlayerAttack
   - 
   - 
   - 
