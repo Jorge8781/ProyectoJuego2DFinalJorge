@@ -11,14 +11,12 @@ public class CheckpointManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject); // opcional
         }
         else
         {
             Destroy(gameObject);
         }
     }
-
 
     public void SetCheckpoint(Vector3 pos)
     {
@@ -30,5 +28,7 @@ public class CheckpointManager : MonoBehaviour
         return lastCheckpointPosition;
     }
 }
+
+
 
 

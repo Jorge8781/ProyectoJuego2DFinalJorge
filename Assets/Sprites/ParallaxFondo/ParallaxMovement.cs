@@ -1,47 +1,33 @@
 using UnityEngine;
-using System.Collections;
 
-// For usage apply the script directly to the element you wish to apply parallaxing
-// Based on Brackeys 2D parallaxing script http://brackeys.com/
 public class Parallax : MonoBehaviour
 {
-    Transform cam; // Camera reference (of its transform)
-    Vector3 previousCamPos;
+    private Transform cam;
+    private Vector3 startPos;
+    private float startCamPosX;
+    private float startCamPosY;
 
-    public float distanceX = 0f; // Distance of the item (z-index based) 
-    public float distanceY = 0f;
+    public float distanceX = 0.5f;
+    public float distanceY = 0.5f;
 
-    public float smoothingX = 1f; // Smoothing factor of parrallax effect
-    public float smoothingY = 1f;
-
-    void Awake()
+    void Start()
     {
         cam = Camera.main.transform;
+
+        startPos = transform.position;
+        startCamPosX = cam.position.x;
+        startCamPosY = cam.position.y;
     }
 
-    void Update()
+    void LateUpdate()
     {
-        if (distanceX != 0f)
-        {
-            float parallaxX = (previousCamPos.x - cam.position.x) * distanceX;
-            Vector3 backgroundTargetPosX = new Vector3(transform.position.x + parallaxX,
-                                                      transform.position.y,
-                                                      transform.position.z);
+        float movementX = (cam.position.x - startCamPosX) * distanceX;
+        float movementY = (cam.position.y - startCamPosY) * distanceY;
 
-            // Lerp to fade between positions
-            transform.position = Vector3.Lerp(transform.position, backgroundTargetPosX, smoothingX * Time.deltaTime);
-        }
-
-        if (distanceY != 0f)
-        {
-            float parallaxY = (previousCamPos.y - cam.position.y) * distanceY;
-            Vector3 backgroundTargetPosY = new Vector3(transform.position.x,
-                                                       transform.position.y + parallaxY,
-                                                       transform.position.z);
-
-            transform.position = Vector3.Lerp(transform.position, backgroundTargetPosY, smoothingY * Time.deltaTime);
-        }
-
-        previousCamPos = cam.position;
+        transform.position = new Vector3(
+            startPos.x + movementX,
+            startPos.y + movementY,
+            startPos.z
+        );
     }
 }

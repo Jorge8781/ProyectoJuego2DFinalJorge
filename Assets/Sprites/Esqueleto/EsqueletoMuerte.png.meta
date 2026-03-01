@@ -1,0 +1,522 @@
+fileFormatVersion: 2
+guid: dfd85ae9a9a294147be8a8fa36744a13
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2212065544001061006
+    second: EsqueletoMuerte_0
+  - first:
+      213: -7220851208756032500
+    second: EsqueletoMuerte_1
+  - first:
+      213: 4796691060128960876
+    second: EsqueletoMuerte_2
+  - first:
+      213: 8708469203891586753
+    second: EsqueletoMuerte_3
+  - first:
+      213: 459346682094778925
+    second: EsqueletoMuerte_4
+  - first:
+      213: -6671752487066718098
+    second: EsqueletoMuerte_5
+  - first:
+      213: -3502519453654577736
+    second: EsqueletoMuerte_6
+  - first:
+      213: 6962826957022723027
+    second: EsqueletoMuerte_7
+  - first:
+      213: 1229859769821733389
+    second: EsqueletoMuerte_8
+  - first:
+      213: -8817531054203186675
+    second: EsqueletoMuerte_9
+  - first:
+      213: -2068987292675408784
+    second: EsqueletoMuerte_10
+  - first:
+      213: 152559605642933322
+    second: EsqueletoMuerte_11
+  - first:
+      213: -1576542084527784043
+    second: EsqueletoMuerte_12
+  - first:
+      213: -7805366206164152105
+    second: EsqueletoMuerte_13
+  - first:
+      213: -1288005297815218763
+    second: EsqueletoMuerte_14
+  - first:
+      213: -4814211775477878444
+    second: EsqueletoMuerte_15
+  - first:
+      213: 4598480288597912300
+    second: EsqueletoMuerte_16
+  - first:
+      213: -2876342364496630246
+    second: EsqueletoMuerte_17
+  - first:
+      213: 3508163402660234702
+    second: EsqueletoMuerte_18
+  - first:
+      213: -583548694598870043
+    second: EsqueletoMuerte_19
+  - first:
+      213: -8753847752293458246
+    second: EsqueletoMuerte_20
+  - first:
+      213: -8231135960059849186
+    second: EsqueletoMuerte_21
+  - first:
+      213: 5394996392619823488
+    second: EsqueletoMuerte_22
+  - first:
+      213: -5390968900534686750
+    second: EsqueletoMuerte_23
+  - first:
+      213: 3962843938618818047
+    second: EsqueletoMuerte_24
+  - first:
+      213: 8104773006297780460
+    second: EsqueletoMuerte_25
+  - first:
+      213: -3031882693460597366
+    second: EsqueletoMuerte_26
+  - first:
+      213: 5452219794170744437
+    second: EsqueletoMuerte_27
+  - first:
+      213: 3164749346295042933
+    second: EsqueletoMuerte_28
+  - first:
+      213: 1583676269060471690
+    second: EsqueletoMuerte_29
+  - first:
+      213: -7334185591600407885
+    second: EsqueletoMuerte_30
+  - first:
+      213: 775576319650464962
+    second: EsqueletoMuerte_31
+  - first:
+      213: -2081208123542735229
+    second: EsqueletoMuerte_32
+  - first:
+      213: 4333649910088345910
+    second: EsqueletoMuerte_33
+  - first:
+      213: 7208638999808109824
+    second: EsqueletoMuerte_34
+  - first:
+      213: -5478987656217008206
+    second: EsqueletoMuerte_35
+  - first:
+      213: 5647955802040208880
+    second: EsqueletoMuerte_36
+  - first:
+      213: 3120654082293004552
+    second: EsqueletoMuerte_37
+  - first:
+      213: 5202069391954512102
+    second: EsqueletoMuerte_38
+  - first:
+      213: 6518507767197581836
+    second: EsqueletoMuerte_39
+  - first:
+      213: 1622070867896258986
+    second: EsqueletoMuerte_40
+  - first:
+      213: 5354415771543254037
+    second: EsqueletoMuerte_41
+  - first:
+      213: -7587154855513795160
+    second: EsqueletoMuerte_42
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EsqueletoMuerte_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e80801a64e5d2be10800000000000000
+      internalID: 2212065544001061006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EsqueletoMuerte_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0c852655126acb90800000000000000
+      internalID: -7220851208756032500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EsqueletoMuerte_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c615740fa15419240800000000000000
+      internalID: 4796691060128960876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EsqueletoMuerte_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c6036bf992bad870800000000000000
+      internalID: 8708469203891586753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EsqueletoMuerte_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2a7307af5def5600800000000000000
+      internalID: 459346682094778925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EsqueletoMuerte_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e603f03267c2963a0800000000000000
+      internalID: -6671752487066718098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EsqueletoMuerte_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bd06023d1d846fc0800000000000000
+      internalID: -3502519453654577736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EsqueletoMuerte_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3db7add0a3ee0a060800000000000000
+      internalID: 6962826957022723027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EsqueletoMuerte_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d02a4cfc1f6511110800000000000000
+      internalID: 1229859769821733389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EsqueletoMuerte_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d025e363936d1a580800000000000000
+      internalID: -8817531054203186675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EsqueletoMuerte_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07cf84fe40b7943e0800000000000000
+      internalID: -2068987292675408784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EsqueletoMuerte_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a44bb6d27200e1200800000000000000
+      internalID: 152559605642933322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0926f432b6591ce4cb817dab6aea27f4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      EsqueletoMuerte_0: 2212065544001061006
+      EsqueletoMuerte_1: -7220851208756032500
+      EsqueletoMuerte_10: -2068987292675408784
+      EsqueletoMuerte_11: 152559605642933322
+      EsqueletoMuerte_2: 4796691060128960876
+      EsqueletoMuerte_3: 8708469203891586753
+      EsqueletoMuerte_4: 459346682094778925
+      EsqueletoMuerte_5: -6671752487066718098
+      EsqueletoMuerte_6: -3502519453654577736
+      EsqueletoMuerte_7: 6962826957022723027
+      EsqueletoMuerte_8: 1229859769821733389
+      EsqueletoMuerte_9: -8817531054203186675
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
